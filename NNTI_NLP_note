@@ -142,11 +142,17 @@ Current Accuracy:
 	get everything ready
 	
 
-11 March commit
+11 March commit fe1baa1
 	Task 3 hindi-hindi and bengali-bengali:
 	+) Classify:
 		Try augmentation by removing some words from sentences (with mild prob e.g. 0.1 to 0.3)
 		-> the accuracy is a bit ridge and a bit lower
+
+12 March commit
+	Task 3 hindi-hindi:
+	+) Classify:
+		Try augmentation by substituting some words with their synonyms
+		-> the accuracy is also a bit lower
 
 
 
@@ -173,8 +179,10 @@ y 16. Initialization (e.g. Xavier init: https://github.com/blackredscarf/pytorch
 o 17. Dense-Sparse-Dense
 x 18. Explore: Transfer -> Hindi - Bengali translation
 o 19. In transfer learning, try both fix/not fix non-embedding layers.
-x 20. Training/testing augmentation.
+x 20. Training augmentation by removing words.
 o 21. BatchNorm and Instance Norm
+o 22. Augmentation by replacing with synonym.
+o 23. Test-time augmentation.
 
 
 Difficulty/Problems:
