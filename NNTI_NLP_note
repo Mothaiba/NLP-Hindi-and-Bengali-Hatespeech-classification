@@ -148,7 +148,7 @@ Current Accuracy:
 		Try augmentation by removing some words from sentences (with mild prob e.g. 0.1 to 0.3)
 		-> the accuracy is a bit ridge and a bit lower
 
-12 March commit
+12 March commit c33c989
 	Task 3 hindi-hindi:
 	+) Classify:
 		Try augmentation by substituting some words with their synonyms
