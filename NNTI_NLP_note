@@ -148,12 +148,17 @@ Current Accuracy:
 		Try augmentation by removing some words from sentences (with mild prob e.g. 0.1 to 0.3)
 		-> the accuracy is a bit ridge and a bit lower
 
-12 March commit c33c989
-	Task 3 hindi-hindi:
+12 March commit 5a1acdf
+	Task 3 hindi-hindi and bengali-bengali:
 	+) Classify:
 		Try augmentation by substituting some words with their synonyms
 		-> the accuracy is also a bit lower
 
+12 March commit
+	Task 3 hindi-hindi and bengali-bengali:
+	+) Classify:
+		Try repeating the sentence (as in Note 11 below).
+		-> don't see improvement.
 
 
 -----------
@@ -180,8 +185,8 @@ o 17. Dense-Sparse-Dense
 x 18. Explore: Transfer -> Hindi - Bengali translation
 o 19. In transfer learning, try both fix/not fix non-embedding layers.
 x 20. Training augmentation by removing words.
-o 21. BatchNorm and Instance Norm
-o 22. Augmentation by replacing with synonym.
+x 21. Instance Norm
+x 22. Augmentation by replacing with synonym.
 o 23. Test-time augmentation.
 
 
