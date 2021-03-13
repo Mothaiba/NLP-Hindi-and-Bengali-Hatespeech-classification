@@ -154,12 +154,17 @@ Current Accuracy:
 		Try augmentation by substituting some words with their synonyms
 		-> the accuracy is also a bit lower
 
-12 March commit
+12 March commit 4c6b8ce
 	Task 3 hindi-hindi and bengali-bengali:
 	+) Classify:
 		Try repeating the sentence (as in Note 11 below).
 		-> don't see improvement.
 
+13 March commit
+	Task 3 hindi-hindi and bengali-bengali:
+	+) Classify:
+		Use bidirectional LSTM instead of Encoder
+		-> take much longer time, accuracy is lower
 
 -----------
 
