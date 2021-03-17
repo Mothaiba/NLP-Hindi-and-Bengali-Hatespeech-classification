@@ -196,7 +196,7 @@ o 23. Test-time augmentation.
 x 24. use LSTM
 o 25. warmup_step learning rate
 o 26. SentencePiece or BPE, (contrast to stanfordnlp SpaCy, NLTK)
-o with model.eval(), torch.no_grad(), model.train()
+o 27. Fix more than just embedding layer.
 
 
 Difficulty/Problems:
