@@ -160,7 +160,7 @@ Current Accuracy:
 		Try repeating the sentence (as in Note 11 below).
 		-> don't see improvement.
 
-13 March commit
+13 March commit 8d37cea
 	Task 3 hindi-hindi and bengali-bengali:
 	+) Classify:
 		Use bidirectional LSTM instead of Encoder
@@ -193,6 +193,10 @@ x 20. Training augmentation by removing words.
 x 21. Instance Norm
 x 22. Augmentation by replacing with synonym.
 o 23. Test-time augmentation.
+x 24. use LSTM
+o 25. warmup_step learning rate
+o 26. SentencePiece or BPE, (contrast to stanfordnlp SpaCy, NLTK)
+o with model.eval(), torch.no_grad(), model.train()
 
 
 Difficulty/Problems:
